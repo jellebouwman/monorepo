@@ -37,3 +37,9 @@ stages:
     - models/model.pth
     outs:
     - model.tar.gz
+artifacts:
+  cv:
+    path: model
+    type: model
+    labels:
+    - cv
